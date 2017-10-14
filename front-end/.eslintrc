@@ -1,0 +1,33 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "indent": [
+      1,
+      4,
+      { "SwitchCase": 1 }
+    ],
+    "no-extra-semi":1,
+    "react/prop-types":1,
+    "no-unused-vars":1,
+    "no-console":1,
+    "no-class-assign":1
+  },
+  "globals": {
+    "document": true,
+    "module": true,
+    "window": true,
+    "FB":true,
+    "console": true,
+    "require": true,
+    "null": true,
+    "Promise": true,
+    "JSON": true
+  }
+}
