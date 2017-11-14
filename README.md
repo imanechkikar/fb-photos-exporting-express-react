@@ -12,7 +12,7 @@
     * technologies used
         
         - ExpressJS
-        - mongoose
+        - mongoose ( Mongodb is required in order to run this app . Install, follow instructions [here](https://docs.mongodb.com/manual/installation/) ) 
         
     * How to use ?
  ``` 
